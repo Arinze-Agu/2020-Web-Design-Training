@@ -1,0 +1,234 @@
+ <html>
+    <head><title>Home page demo</title>
+	<style>
+	   .menus:hover{
+	      border-radius:20px 0px 20px 0px;
+	      background-color:#ccc;
+	      cursor:pointer;
+	      border-right:1.5px solid #f36;
+	    }
+
+	    #current{
+	      background-color:#ccc; 
+	      border-right:1.5px solid #f36;
+            }
+
+    	    #faq{
+	       float: right;
+	    }
+
+	    #first_info_with_back_img{
+	        border-radius:20px;
+		background-image:url(img/IMG_20191025_131630.jpg);
+	    }
+
+	    #welcome-info{
+		width:100%;
+		height:50px;
+		float:left;
+		text-align:center;
+		padding-top:2%;
+		color:#500;
+		font-weight:bolder;
+	    }
+
+	    #h-rule{
+		border: 1.5px solid #ccc;
+	    }
+
+	    #kis-welcome-note{
+		width:98%;
+		min-height:150px;
+		text-align:center;
+		padding-buttom:2%;
+		float:left;
+		padding:1%;
+	    }
+
+	    #other_info{
+	     	width:96%;
+		min-height:330px;
+		background-color:#000;
+		float:left;
+		border-radius:20px 20px 0px 0px;
+		opacity:0.6;
+		margin-top:1%;
+		padding:2%;
+	    }
+	    #register{
+		width:100%;
+		height:100px;
+		margin-top:1%;
+		padding-top:1%;
+		
+	    }
+
+	    #left-info{
+		width:47%;
+		min-height:200px;
+		float:left;
+		border:1px solid #888;
+		border-radius:20px 0px 0px 0px;
+		margin-right:1%;
+		padding:1%;
+	    }
+
+	    #right-info{
+		width:47%;
+		height:200px;
+		float:left;
+		border:1px solid #888;
+		border-radius:0px 20px 0px 0px;
+		padding:1%;
+		
+	    }
+
+	    #left-form,#left-form-field-wrapper{
+		width:100%; 
+		float:left;
+	
+	    }
+	 
+
+	    .left-fields-holder{
+		width:100%; 
+		float:left;
+		height:40px;
+	 	line-height:40px;
+	    }
+	    
+	    .left-field-label{
+		width:17%; 
+		float:left;
+		margin-right:0.5%;
+		color:#fefefe;
+	    }
+
+	    .left-fields{
+		width:82.5%; 
+		float:left;
+		height:35px;
+		border-radius:10px;
+	    }
+
+	    #right-form,#right-form-field-wrapper{
+		width:100%; 
+		float:left;
+		min-height:200px;
+	   }
+
+            .right-fields-holder{
+		width:100%; 
+		float:left;
+		height:40px;
+	 	line-height:40px;
+	    }
+	    
+	    .right-field-label{
+		width:17%; 
+		float:left;
+		margin-right:0.5%;
+		color:#fefefe;
+	    }
+
+	    .right-fields{
+		width:82.5%; 
+		float:left;
+		height:35px;
+		border-radius:10px;
+	    }
+
+	</style>
+
+    </head>
+    <body>
+	<div id="wrapper" style="width:100%; height:700px; margin:auto; background-color:#ccc;">
+
+	   <div id="banner" style="width:100%; height:50px; float:left; background-color:#003; color:#fefefe;">
+	      <div id="logo" style="width:10%; height:50px; float:left;"><img src="img/IMG_20191025_131626.jpg" alt="our logo image" width="150" height="50"/></div>
+	      <div id="banner_cnt" style="width:90%; height:50px; float:left; text-align:center; line-height:50px; font-weight:bolder; font-size:24px;">KIS TECHNOLGIES LIMITED, ENUGU</div>
+	   </div>
+
+	   <div id="menu" style="width:100%; height:50px; float:left; background-color:#888;">
+	      <ul style="width:500px; margin-top:0px; margin-buttom:0px; margin-left:25px; margin-right:25px; padding:0px;list-style:none;">
+	        <li id="current" class="menus" style="display:inline-block; margin-right:6px; height:50px; line-height:50px; padding-left:4px; padding-right:4px; padding-top:0px;padding-buttom:0px; border-radius:20px 0px 20px 0px;">Home</li>
+	        <li class="menus" style="display:inline-block; margin-right:6px; height:50px; line-height:50px; padding-left:4px; padding-right:4px; padding-top:0px;padding-buttom:0px;">About</li>
+	        <li class="menus" style="display:inline-block; margin-right:6px; height:50px; line-height:50px; padding-left:4px; padding-right:4px; padding-top:0px;padding-buttom:0px;">Contact us</li>
+	        <li class="menus" style="display:inline-block; margin-right:6px; height:50px; line-height:50px; padding-left:4px; padding-right:4px; padding-top:0px;padding-buttom:0px;">Services</li>
+	        <li id="faq" class="menus" style="display:inline-block; margin-right:6px; height:50px; line-height:50px; padding-left:4px; padding-right:4px; padding-top:0px;padding-buttom:0px;">FAQs</li>
+	      </ul>
+	   </div>
+
+	   <div id="first_info_with_back_img" style="width: 96%; min-height: 200px; float:left; margin-top:2%; margin-left:2%; margin-right:2%; background-color:#888; background-image:url(IMG_20191025_131630.jpg);">
+		<div id="welcome-info">WELCOME TO KIS TECHNOLOGIES LTD. ENUGU.<hr id="h-rule"/></div>
+		<div id="kis-welcome-note">Dear valued client, you are most welcome to KIS-TECHNOLOGIES LTD., ENUGU. <br />In KIS-TECH, you can obtain a quality training in any ICT related field and Computer/Electronic engineering fields. KIS-TECH produces an unbeatable quality products in the area of electronics and solar system design. We believe in good name and we are competent in our services. Feel free to contact us anytime, any day for business proposals and career training certification. <p>Thank you.</p></div>
+	   </div>
+
+    	   <div id="other_info">
+		<div id="left-info">
+		   <form method="post" action="" enctype="multipart-formdata" id="left-form">
+			<div id="left-form-field-wrapper">
+			   <div class="left-fields-holder">
+				<label class="left-field-label">Surname**:</label>
+				<input class="left-fields" type="text" id="surname" name="surname" placeholder="Enter Your surname" title="Surname Pleas..." required="required" />
+			   </div>
+
+			   <div class="left-fields-holder">
+				<label class="left-field-label">First Name**:</label>
+				<input class="left-fields" type="text" id="firstName" name="firstName" placeholder="Enter Your First name" title="Your First name Pleas..." required="required" />
+			   </div>
+
+			   <div class="left-fields-holder">
+				<label class="left-field-label">Other Name:</label>
+				<input class="left-fields" type="text" id="otherName" name="otherName" placeholder="Enter Your Other name" title="Your Other name Pleas..." />
+			   </div>
+
+			   <div class="left-fields-holder">
+				<label class="left-field-label">Address**:</label>
+				<input class="left-fields" type="text" id="address" name="address" placeholder="Enter Your Home address" title="Your home address Pleas..." required="required" />
+			   </div>
+
+			</div>
+		   </form>
+		</div>
+
+		<div id="right-info">
+		  <form method="post" action="" enctype="multipart-formdata" id="right-form">
+			<div id="right-form-field-wrapper">
+			   <div class="right-fields-holder">
+				<label class="right-field-label">Telephone**:</label>
+				<input class="right-fields" type="telephone" id="telephone" name="telephone" placeholder="Enter Your phone No." title="Phone NO. Pleas..." required="required" />
+			   </div>
+
+			   <div class="right-fields-holder">
+				<label class="right-field-label">Username**:</label>
+				<input class="right-fields" type="text" id="Username" name="Username" placeholder="Enter Your Username" title="Your Username Pleas..." required="required" />
+			   </div>
+
+			   <div class="right-fields-holder">
+				<label class="right-field-label">Password**:</label>
+				<input class="right-fields" type="password" id="password" name="password" placeholder="Enter Your password" title="Your password Pleas..." required="required"  />
+			   </div>
+
+			   <div class="right-fields-holder">
+				<label class="right-field-label">Passport**:</label>
+				<input class="right-fields" type="file" id="file-select" name="upload" value="image" placeholder="Upload your Passport here" title="Your passport Pleas..." "required="required"/>
+							   </div>
+			</div>
+					
+		   </form>
+       		</div>
+			<div id="register" style="text-align:center; margin-top:1%;">
+				<input style="padding:1%; background-color:#003;color:gold; font-weight:bolder; border-radius:15px;" type="submit" id="submit" value="Register" name="submit"  title="Click here to submit..." required="required" />
+			   </div>
+		  
+<label for="file-select" style="color:red">upload</label>
+				<input type="file" name="upload" id="file-select">
+
+		
+	   </div>
+
+	   <div id="copyright"><span style="color:#f36; font-weight:bolder;">Copyright&copy</span> Kis-Technologies LTD. All rights reserved.</div>
+        </div>
+    </body>
+</html>
